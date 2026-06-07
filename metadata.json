@@ -1,0 +1,8 @@
+{
+  "name": "Héalthio AI Health Companion",
+  "description": "A high-fidelity mobile AI health app UI/UX with symptom checking, first aid guides, and health tips.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
