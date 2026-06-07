@@ -17,7 +17,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeScreen, onNavigate }) => 
   ];
 
   return (
-    <div className="absolute bottom-0 left-0 right-0 bg-white border-t border-gray-100 flex items-center justify-around py-4 px-2 pb-8">
+    <div className="absolute bottom-0 left-0 right-0 bg-white border-t border-gray-100 flex md:hidden items-center justify-around py-4 px-2 pb-8">
       {tabs.map((tab) => {
         const Icon = tab.icon;
         const isActive = activeScreen === tab.id;
