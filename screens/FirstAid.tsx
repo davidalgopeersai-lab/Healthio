@@ -84,7 +84,7 @@ const FirstAid: React.FC<FirstAidProps> = ({ onBack }) => {
 
                 <div className="flex-1 overflow-y-auto space-y-8 pr-2">
                     <div className="relative h-56 rounded-[32px] overflow-hidden mb-8 shadow-md">
-                        <img src="https://picsum.photos/600/400?burn" className="w-full h-full object-cover" alt="Instruction" />
+                        <img src="https://picsum.photos/600/400?burn" className="w-full h-full object-cover" alt="Instruction" referrerPolicy="no-referrer" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                         <div className="absolute bottom-6 left-6 text-white text-[10px] font-bold uppercase tracking-wider">Instructional Visual</div>
                     </div>

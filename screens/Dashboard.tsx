@@ -98,7 +98,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
             <h4 className="font-bold text-[#1F2933] text-sm mb-4">Latest Health News</h4>
             <div className="bg-white p-4 rounded-[20px] shadow-sm border border-gray-50 flex gap-4">
                 <div className="w-20 h-20 rounded-xl bg-gray-100 overflow-hidden flex-shrink-0">
-                    <img src="https://picsum.photos/100/100?medical" className="w-full h-full object-cover" />
+                    <img src="https://picsum.photos/100/100?medical" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
                 <div>
                     <span className="text-[10px] font-bold text-[#2D7A6D] uppercase">Wellness</span>

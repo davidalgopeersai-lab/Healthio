@@ -24,7 +24,7 @@ const Profile: React.FC<ProfileProps> = ({ onNavigate }) => {
         <div className="flex flex-col items-center">
           <div className="relative">
             <div className="w-24 h-24 rounded-full border-4 border-white overflow-hidden shadow-2xl bg-gray-100">
-                <img src="https://picsum.photos/200/200?random=10" className="w-full h-full object-cover" alt="Profile" />
+                <img src="https://picsum.photos/200/200?random=10" className="w-full h-full object-cover" alt="Profile" referrerPolicy="no-referrer" />
             </div>
             <div className="absolute bottom-0 right-0 w-9 h-9 bg-[#6FDAC3] rounded-full border-4 border-[#2D7A6D] flex items-center justify-center">
                 <Award size={16} className="text-white" />

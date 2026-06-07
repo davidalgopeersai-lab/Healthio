@@ -78,7 +78,7 @@ const Tips: React.FC<TipsProps> = ({ onNavigate }) => {
                     className="bg-white rounded-[24px] overflow-hidden shadow-sm border border-gray-100 cursor-pointer"
                 >
                     <div className="relative h-44">
-                        <img src={tip.image} className="w-full h-full object-cover" alt={tip.title} />
+                        <img src={tip.image} className="w-full h-full object-cover" alt={tip.title} referrerPolicy="no-referrer" />
                         <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-[10px] font-bold text-[#2D7A6D] uppercase tracking-wider shadow-sm">
                             {tip.category}
                         </div>
