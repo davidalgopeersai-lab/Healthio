@@ -8,6 +8,19 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
+// Request logging middleware
+import fs from "fs";
+import path from "path";
+app.use((req, res, next) => {
+  const logMsg = `[${new Date().toISOString()}] ${req.method} ${req.url} - Headers: ${JSON.stringify(req.headers)}\n`;
+  try {
+    fs.appendFileSync(path.join(process.cwd(), "server.log"), logMsg);
+  } catch (e) {
+    console.error("Failed to write to server.log", e);
+  }
+  next();
+});
+
 const MODEL_NAME = 'gemini-3.5-flash';
 
 // Initialize GoogleGenAI securely on the server side
