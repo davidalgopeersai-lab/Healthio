@@ -24,7 +24,8 @@ export async function getChatResponse(
     return data.text;
   } catch (err) {
     console.error("Error calling server chat API, falling back to basic offline assistant description.", err);
-    return "I am currently having trouble connecting to the Healthio AI servers. Please ensure you are connected to the internet and try again. If the issue persists, contact support.";
+    const errMsg = err instanceof Error ? err.message : String(err);
+    return `I am currently having trouble connecting to the Healthio AI servers (${errMsg}). Please ensure you are connected to the internet and try again. If the issue persists, contact support.`;
   }
 }
 
