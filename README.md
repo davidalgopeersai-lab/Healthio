@@ -4,7 +4,15 @@
 
 Introduction
 
-HealthIO is a modern healthcare platform that helps users manage their health records, book appointments, and access healthcare services through a simple, secure, and user-friendly dashboard.
+## 🚀 How to Use
+
+- 📝 **Sign Up** – Create a new HealthIO account.
+- 🔐 **Log In** – Access your personalized dashboard.
+- 👤 **Complete Your Profile** – Add your personal and health information.
+- 📅 **Book an Appointment** – Schedule an appointment with a healthcare provider.
+- 📋 **Manage Health Records** – View and update your medical information securely.
+- 📈 **Track Your Health** – Monitor your health records and appointment history.
+- 🚪 **Log Out** – Sign out securely when you're finished.
 
 Description
 
