@@ -2,6 +2,7 @@
 <img width="1200" height="475" alt="GHBanner" src="pic.png" />
 </div>
 
+
 HealthIO is a comprehensive digital healthcare platform that simplifies the way patients interact with healthcare services. It provides a centralized dashboard where users can securely manage their health information, monitor their medical records, schedule appointments, and access essential healthcare resources. With an intuitive interface and responsive design, HealthIO aims to make healthcare more accessible, efficient, and convenient for everyone.
 
 Description
