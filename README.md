@@ -11,6 +11,7 @@ Description
 HealthIO streamlines healthcare by bringing essential medical services and personal health information into one convenient platform, making it easier to stay connected with healthcare providers.
 
 Features
+
 🩺 Patient health records management
 📅 Appointment scheduling
 👨‍⚕️ Doctor and patient dashboard
